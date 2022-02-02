@@ -8,35 +8,46 @@
 
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/header_nav.css">
+    <link rel="stylesheet" href="css/header_hero.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav class="nav">
-            <figure class="logo logo--nav">
-                <img src="" alt="img-logo">
-            </figure>
-            <ul class="nav__ul">
-                <li class="nav__item"><a href="#">Inicio</a></li>
-                <li class="nav__item"><a href="#">¿Quiénes somos?</a></li>
-                <li class="nav__item"><a href="#">Entrenadores</a></li>
-                <li class="nav__item"><a href="#">Noticias</a></li>
-                <li class="nav__item"><a href="#">Contacto</a></li>
-            </ul>
-            <form action="" class="nav__form">
-                <a href="#">Ingresar</a>
-                <a href="#">Registarse</a>
-            </form>
+            <div class="nav__wrapper">
+                <figure class="logo logo--nav">
+                    <img class="logo__image" src="./images/LogoInfinitumNegativo.png" alt="img-logo">
+                </figure>
+                <ul class="nav__ul">
+                    <li class="nav__item"><a class="link" href="#">Inicio</a></li>
+                    <li class="nav__item"><a class="link" href="#">Nosotros</a></li>
+                    <li class="nav__item"><a class="link" href="#">Entrenadores</a></li>
+                    <li class="nav__item"><a class="link" href="#">Noticias</a></li>
+                    <li class="nav__item"><a class="link" href="#">Contacto</a></li>
+                </ul>
+                <div action="" class="nav__buttons">
+                    <a class="button" href="#">Ingresar</a>
+                    <a class="button button--invert" href="#">Registarse</a>
+                </div>
+                <div class="burger">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </div>
+            </div>
         </nav>
         <section class="hero">
-            <div class="hero__content">
-                <h1 class="hero__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias?</h1>
-                <p class="hero__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequuntur veniam vel deserunt labore quasi porro! Assumenda, repellendus repellat nemo autem ipsum veniam ea iure. Doloribus tempora nisi sapiente error.</p>
-            </div>
-            <div class="hero__image">
-                <img src="" alt="image-hero">
+            <div class="hero__wrapper">
+                <div class="hero__content">
+                    <h1 class="hero__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias?</h1>
+                    <p class="hero__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequuntur veniam vel deserunt labore quasi porro! Assumenda, repellendus repellat nemo autem ipsum veniam ea iure. Doloribus tempora nisi sapiente error.</p>
+                    <a class="button button--invert " href="#">Registrarte ya!</a>
+                </div>
+                <figure class="hero__figure">
+                    <img class="hero__img" src="./images/pexels-max-fischer-5212334_preview_rev_1.png" alt="image-hero">
+                </figure>
             </div>
         </section>
     </header>
