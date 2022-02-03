@@ -1,0 +1,7 @@
+//header_nav.css
+    -Ajustar el grid, --> auto 
+    -Colocar el margin
+
+//header_hero.css
+    -Agregar imagen movile
+    -Colocar el margin
