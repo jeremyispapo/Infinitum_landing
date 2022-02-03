@@ -39,7 +39,7 @@
 
 .cursos__container {
     position: relative;
-    margin-block-start: 4rem;
+    margin-block: 4rem 12rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
     grid-template-rows: auto;
