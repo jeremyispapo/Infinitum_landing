@@ -1,0 +1,13 @@
+.opinion {
+    height: 30rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 3.2rem;
+    box-shadow: 2px 2px 11px -1px rgba(0,0,0,0.13);
+}
+
+.opinion__text {
+    font-weight: var(--fw-light);
+    font-size: var(--fs-body);
+}
+
