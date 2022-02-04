@@ -1,0 +1,17 @@
+.opiniones {
+    display: flex;
+    justify-content: center;
+}
+
+.opiniones__wrapper {
+    max-width: 120rem;
+    width: 100%;
+}
+
+.opiniones__content {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(30rem,1fr));
+    gap: 2rem;
+    margin-block-start: 4rem;
+}
