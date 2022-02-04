@@ -11,16 +11,37 @@
     font-size: var(--fs-body);
 }
 
+.opinion__userinfo {
+    display: grid;
+    margin-block-start: 4rem;
+    grid-template-columns: auto 1fr;
+}
+
 .opinion__figure {
     width: 5rem;
     height: 5rem;
     border: .3rem solid black;
     border-radius: 50%;
+    grid-row: 1/3;
 }
 
 .opinion__user {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+}
+
+.opinion__user-name {
+    align-self: center;
+    margin-inline-start: 1.2rem;
+    font-size: var(--fs-body);
+}
+
+.opinion__social {
+    margin-inline-start: 1.2rem;
+    display: flex;
+}
+
+.opinion__social span {
+    margin-inline-end: .8rem;
 }
