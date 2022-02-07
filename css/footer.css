@@ -57,6 +57,7 @@
     padding: 2.4rem;
     display: flex;
     flex-direction: column;
+    min-height: 10rem;
 }
 
 b#nameAutor {
