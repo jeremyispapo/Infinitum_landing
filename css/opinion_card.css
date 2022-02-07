@@ -91,3 +91,27 @@
 .opinion:nth-child(3) {
     background-image: url(../images/background_card-orange.svg);
 }
+
+
+.opinion .opinion__wrapper:before {
+    content: "";
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    background-size: cover;
+    opacity: .3;
+}
+
+.opinion:nth-child(1) .opinion__wrapper::before {
+    background-image: url(../assets/icons/quote_blue.png);
+}
+
+.opinion:nth-child(2) .opinion__wrapper::before {
+    background-image: url(../assets/icons/quote-green.png);
+}
+
+.opinion:nth-child(3) .opinion__wrapper::before {
+    background-image: url(../assets/icons/quote_orange.png);
+}
