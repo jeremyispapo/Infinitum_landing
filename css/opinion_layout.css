@@ -10,10 +10,24 @@
 }
 
 .opiniones__content {
-    display: grid;
+    /* display: grid;
     place-content: center;
     grid-template-columns: repeat(auto-fill, minmax(30rem,1fr));
     grid-template-rows: auto;
     gap: 2rem;
-    margin-block-start: 4rem;
+    margin-block-start: 4rem; */
+
+
+
+    display: flex;
+    /* height: 31.6rem; */
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    gap:2rem;
+    padding: 2rem;
+}
+
+.opiniones__content::-webkit-scrollbar {
+    height: .3rem;
 }
