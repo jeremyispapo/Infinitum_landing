@@ -8,6 +8,7 @@
     background-position: center;
     background-repeat: no-repeat;
     transition: ease .3s;
+    margin-block-end: 3rem;
 }
 
 .opinion:hover {
@@ -26,6 +27,9 @@
 .opinion__text {
     font-weight: var(--fw-light);
     font-size: var(--fs-body);
+    background: rgba(255, 255, 255, 0.253);
+    border-radius: .5rem;
+    padding: 1.2rem;
 }
 
 .opinion__userinfo {

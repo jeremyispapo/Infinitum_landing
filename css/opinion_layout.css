@@ -6,6 +6,7 @@
 .opiniones__wrapper {
     max-width: 120rem;
     width: 100%;
+    padding-inline: 2rem;
 }
 
 .opiniones__content {
