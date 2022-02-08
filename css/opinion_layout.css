@@ -19,13 +19,17 @@
 
 
 
-    display: flex;
-    /* height: 31.6rem; */
+    /* display: flex;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     gap:2rem;
-    padding: 2rem;
+    padding: 2rem; */
+    /* width: 30rem; */
+}
+
+.swiper {
+    width: 30rem;
 }
 
 .opiniones__content::-webkit-scrollbar {
