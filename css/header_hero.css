@@ -1,8 +1,10 @@
 .hero {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .hero__wrapper {
+    padding-inline: 2rem;
     display: grid;
     max-width: 120rem;
     width: 100%;
@@ -62,4 +64,29 @@
 
 .button--invert--hero:hover.button--invert--hero::after{
     transform: translateX(4px);
+}
+
+@media (max-width: 1000px) {
+    .hero__content {
+        padding-block-end: 3rem;
+    }
+    .hero__figure {
+        width: 70%;
+        justify-self: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .hero__title {
+        font-size: calc(var(--fs-x-large) - 1.2rem);
+        line-height: 3.4rem;
+        margin-block-end: 2rem;
+    }
+    .hero__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .hero__content {
+        align-items: center;
+    }
 }
