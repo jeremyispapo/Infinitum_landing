@@ -4,19 +4,26 @@
     background-color: #fff;
 }
 
+.section__title.section__title--propuestas {
+    min-width: 100%;
+}
+
 .propuestas__wrapper {
     max-width: 120rem;
     width: 100%;
-}
-
-.propuestas__section {
+    padding-inline: 2rem;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
+.propuestas__section {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
 .propuestas__figure {
-    width: clamp(30rem, 50%, 50rem);
+    width: 100%;
 }
 
 .propuestas__video {
@@ -26,7 +33,7 @@
 }
 
 .propuestas__lista {
-    width: clamp(30rem, 50%, 60rem);
+    width: 100%;
 }
 
 .propuesta__title {
