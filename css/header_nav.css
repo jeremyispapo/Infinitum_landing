@@ -9,7 +9,6 @@ body {
 .header {
     /* CHANGE */
     background: url(../images/blob-haikei.svg);
-    /* background-attachment: fixed; */
     background-size: cover;
 }
 
@@ -24,9 +23,9 @@ body {
     /* CHANGE */
     max-width: 120rem;
     width: 100%;
-
+    padding-inline: 2rem;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2.5fr 1fr;
     justify-items: center;
 }
 
@@ -101,17 +100,11 @@ body {
     /* CHANGE */
     color: inherit;
 
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
     font-size: var(--fs-body);
     transition: .3s ease all;
     text-decoration: none;
     font-weight: var(--fw-light);
     text-align: center;
-
-    /* width: 100%; */
-    /* height: 100%; */
     padding: 2.4rem 1.6rem;
 }
 
@@ -161,8 +154,22 @@ body {
     .nav__item::before {
         display: none;
     }
+
+    .nav__buttons {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    
+    .button {
+        padding-inline: .8rem;
+        font-size: 1.2rem;
+        margin: 0;
+        text-align: center;
+        margin-inline:.4rem
+    }
     .button--invert {
-        color: #84ac48;
+        width: 9rem;
+        color: var(--orange_dark);
     }
 }
 
