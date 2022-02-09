@@ -123,3 +123,24 @@
 .opinion:nth-child(3) .opinion__wrapper::before {
     background-image: url(../assets/icons/quote_orange.png);
 }
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    color: gray;
+    right: -60px;
+    left: auto;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    color: gray;
+    left: -70px;
+    right: auto;
+}
+
+@media (max-width: 550px) {
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        display: none;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        display: none;
+    }
+}

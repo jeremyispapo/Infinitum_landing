@@ -17,8 +17,9 @@
     align-items: center;
     flex-direction: column;
     padding-inline:2rem;
+    padding-block: 2rem;
     gap: 1.2rem;
-    margin-block-end: 3.4rem;
+    margin-block: 3.4rem;
 }
 
 .aside__title {

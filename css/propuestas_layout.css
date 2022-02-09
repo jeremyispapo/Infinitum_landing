@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: #fff;
+    padding-block: 8rem;
 }
 
 .section__title.section__title--propuestas {
