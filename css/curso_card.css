@@ -10,7 +10,6 @@
     height: 100%;
     padding: 2rem;
     position: relative;
-    transition: ease 1s all;
 }
 
 .curso:nth-child(1) .curso__card {
