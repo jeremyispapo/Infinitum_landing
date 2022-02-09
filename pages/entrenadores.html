@@ -1,275 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
-    <title>Entrenadores</title>
-
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Independientemente de tu localidad, accede a nuestro programa de entrenamiento en línea y obtén los mejores resultados.">
+    <title>Infinitum</title>
 
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/all.css">
-    <link rel="stylesheet" href="../css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/header_nav.css">
+    <link rel="stylesheet" href="../css/entrenadores__grid.css">
+    <link rel="stylesheet" href="../css/footer.css">
 
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="../css/templatemo-style.css?v1.3.0">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/cuadrado.png" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
-<body id="top">
-
-    <!-- PRE LOADER -->
-    <section class="preloader">
-        <div class="spinner">
-
-            <span class="spinner-rotate"></span>
-
-        </div>
-    </section>
-
-
-    <!-- MENU -->
-    <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                </button>
-                <a href="../index.html#top"><img id="img-logo" src="../images/logo-horizontal.png" class="rounded m-t"
-                        alt="logo"></a>
-            </div>
-
-            <!-- MENU LINKS -->
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-nav-first fixed-top">
-                    <li><a href="../index.html#top" class="smoothScroll">Inicio</a></li>
-                    <li><a href="../index.html#programa" class="smoothScroll">¿Quiénes somos?</a></li>
-                    <li><a class="here" href="entrenadores.html" class="smoothScroll">Entrenadores</a></li>
-                    <li><a href="noticias.html" class="smoothScroll">Noticias</a></li>
-                    <!--<li><a href="#estudiantes" class="smoothScroll">Logros</a></li>-->
-                    <li><a href="../index.html#footer" class="smoothScroll">Contacto</a></li>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__wrapper">
+                <figure class="logo logo--nav">
+                    <img class="logo__image" width="300" height="300" src="../images/LogoInfinitumNegativo.png" alt="img-logo">
+                </figure>
+                <ul class="nav__ul">
+                    <li class="nav__item"><a class="link" href="#">Inicio</a></li>
+                    <li class="nav__item"><a class="link" href="#">Nosotros</a></li>
+                    <li class="nav__item"><a class="link" href="#">Entrenadores</a></li>
+                    <li class="nav__item"><a class="link" href="#">Noticias</a></li>
+                    <li class="nav__item"><a class="link" href="#">Contacto</a></li>
                 </ul>
-                <form class="form-inline">
-                    <a href="https://www.intranet.infinitum.com.pe/login" class="btn btn-primary"
-                        role="button">Ingresar</a>
-                </form>
+                <div class="nav__buttons">
+                    <a class="button" href="#">Ingresar</a>
+                    <a class="button button--invert" href="#">Registarse</a>
+                </div>
+                <div class="burger">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="entrenadores">
+            <div class="entrenadores__wrapper">
+                <h1 class="title"></h1>
+                <section class="entrenadores__item">
+                    <article class="entrenador">
+                        <figure class="entrenador__figure">
+                            <img class="entrenador__img" src="../images/entrenadores/" alt="">
+                            <p class="entrenador__description">
+                                <span class="entrenador__nombre"></span>
+                                <span class="entrandor__titulo"></span>
+                            </p>
+                        </figure>
+                    </article>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__icons">
+                <a href="https://www.facebook.com/infinitum.oo" target="_blank" class="icon">facebook</a >
+                <a href="https://www.youtube.com/c/InfinitumTeamOlympiads" target="_blank" class="icon">youtube</a >
+                <a href="https://www.messenger.com/t/infinitum.oo" target="_blank" class="icon">Messenger</a >
+                <a href="https://wa.me/51922925879" target="_blank" class="icon">Whatsapp</a >
+            </div>
+            <p class="footer__quotes">
+                <span id="app"></span>
+                <br>
+                <b id="nameAutor">Lorem ipsum dolor sit amet.</b>
+            </p>
+            <figure class="logo logo--footer">
+                <img src="../images/LogoInfinitumNegativo.png" alt="logo de Infinitum" class="img-logo">
+            </figure>
+            <div class="footer__contact">
+                <a href="tel:+51 922 925 879" > <span class="icon icon--small"></span> +51 922 925 879</a>
+                <a href="mailto:contacto@infinitumteam.com" > <span class="icon icon--small"></span> contacto@infinitumteam.com
+                </a>
+                <a href="tel:+51 977 967 767" > <span class="icon icon--small"></span> +51 977 967 767</a>
             </div>
         </div>
-    </section>
-
-    <section id="entrenadores">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="section-title">
-                        <h2>El mejor equipo de entrenadores</h2>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 mb-row">
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/yepez.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Miguel Yépez</h3>
-                                <span>Magíster en Matemáticas por el IMCA</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/felipe.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Felipe Costa</h3>
-                                <span>Entrenador para olimpiadas de física</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/hugo.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Hugo Luyo</h3>
-                                <span>Entrenador para olimpiadas de física</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/victor.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Víctor Vera</h3>
-                                <span>Entrenador para olimpiadas de astronomía y astronáutica</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-sm-12 mb-row">
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/cicero.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Cícero Thiago Magalhães</h3>
-                                <span>Magíster en Matemáticas por la Universidad Federal de Ceará, Brasil</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/ramos.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Ricardo Ramos</h3>
-                                <span>Doctor en Matemáticas por el IMPA, Brasil</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/napa.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Ángel Napa</h3>
-                                <span>Medalla de plata en la Olimpiada Internacional de Matemática 2013</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/jimmy.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Jimmy Espinoza</h3>
-                                <span>Medalla de plata en la Olimpiada Internacional de Matemática 2015</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="col-sm-12 mb-row">
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/ccaccya.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Miguel Ccaccya</h3>
-                                <span>Medalla de oro en la Olimpiada Iberoamericana de Matemática 2014</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/jeferson.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Jeferson Herrera</h3>
-                                <span>Medalla de oro en la Olimpiada de Países del Cono Sur 2015</span>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/lopez.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Jhefferson López</h3>
-                                <span>Medalla de plata en la Olimpiada Matemática Rioplatense 2016</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/yataco.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Anthony Yataco</h3>
-                                <span>Medalla de oro en la Olimpiada Matemática Rioplatense 2017</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-12 mb-row">
-
-                    <div class="col-sm-3">
-                        <div class="team-thumb">
-                            <div class="team-image">
-                                <img src="../images/team/jorge.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Jorge Mauricio</h3>
-                                <span>Medalla de plata en la Olimpiada Iberoamericana de Física 2017</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!--BOTONES FIJOS-->
-    <div class="boton-fijo-izquierdo">
-        <a href="https://www.messenger.com/t/infinitum.oo" target="_blank"><img src="../images/redes/messenger.png" alt="infinitum messenger"/></a>
-   </div>
-   <div class="boton-fijo-derecho">
-        <a href="https://wa.me/51922925879" target="_blank"><img src="../images/redes/whatsapp.png" alt="infinitum whatsapp"/></a>
-   </div>
-
-    <!-- SCRIPTS -->
-    <script src="../js/jquery.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/owl.carousel.js"></script>
-    <script src="../js/smoothscroll.js"></script>
-    <script src="../js/custom.js"></script>
-
+    </footer>
+    <script src="../js/randomQuotes.js"></script>
 </body>
-
 </html>

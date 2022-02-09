@@ -1,0 +1,9 @@
+.entrenadores {
+    display: flex;
+    justify-content: center;
+}
+.entrenadores__wrapper {
+    max-width: 120rem;
+    width: 100%;
+}
+
