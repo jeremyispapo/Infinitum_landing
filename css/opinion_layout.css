@@ -7,29 +7,27 @@
     max-width: 120rem;
     width: 100%;
     padding-inline: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr;
+    margin-block:3rem; 
 }
 
-.opiniones__content {
-    /* display: grid;
-    place-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(30rem,1fr));
-    grid-template-rows: auto;
-    gap: 2rem;
-    margin-block-start: 4rem; */
+.section__title.section__title--opiniones {
+    grid-column: 1/3;
+    margin-block-end: 5rem;
+}
 
-
-
-    /* display: flex;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-    gap:2rem;
-    padding: 2rem; */
-    /* width: 30rem; */
+.section__description--opiniones {
+    grid-column: 2/3;
 }
 
 .swiper {
     width: 30rem;
+}
+
+.content__slider {
+    grid-row: 2/3;
 }
 
 .opiniones__content::-webkit-scrollbar {

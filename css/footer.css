@@ -82,6 +82,7 @@ b#nameAutor {
 .logo.logo--footer .img-logo {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .footer__contact {

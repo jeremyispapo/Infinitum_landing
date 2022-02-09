@@ -1,4 +1,4 @@
-import quote from './quotes.json' assert { type: "json" }
+import quote from './quotes.js'
 
 const app = document.getElementById("app")
 const autor = document.getElementById("nameAutor")

@@ -1,4 +1,4 @@
-[
+const Quotes = [
     {
         "cita": "Los números perfectos, como los hombres perfectos, son muy extraños.",
         "autor": "Descartes"
@@ -60,3 +60,5 @@
         "autor": "Fran Lebowitz"
     }
 ]
+
+export default Quotes
